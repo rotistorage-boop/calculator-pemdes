@@ -55,6 +55,7 @@ UTS/
 |   |-- keypad.py             # Komponen widget papan tombol berbasis QGridLayout
 |   `-- main_window.py        # Komponen jendela utama (QMainWindow, menu, dan tab)
 |-- .gitignore                # Konfigurasi file yang diabaikan oleh Git
+|-- CONTRIBUTING.md           # Panduan alur kontribusi dan aturan Git workflow
 |-- main.py                   # File entri utama eksekusi program
 |-- requirements.txt          # Daftar dependensi library (PyQt6==6.11.0)
 |-- setup.ps1                 # Skrip setup virtual environment otomatis
@@ -94,6 +95,9 @@ UTS/
 
 - **.gitignore**:
   Menyaring file yang tidak perlu diunggah ke repositori, seperti folder `.venv`, cache `__pycache__`, dan file temporer.
+
+- **CONTRIBUTING.md**:
+  Panduan lengkap langkah dan aturan alur kontribusi (*Git Workflow*), mulai dari fork, branch, commit convention, push, hingga proses review Pull Request.
 
 ---
 
