@@ -33,3 +33,11 @@ class Display(QWidget):
         )
 
         layout.addStretch()
+
+    def set_text(self, text: str):
+        """Update teks display."""
+        self.result.setText(text)
+
+    def get_text(self) -> str:
+        """Ambil teks display."""
+        return self.result.text()
