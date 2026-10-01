@@ -2,6 +2,10 @@
 
 Aplikasi kalkulator GUI desktop pakai Python dan PyQt6 sesuai spesifikasi UTS Pemrograman Desktop.
 
+## Preview Aplikasi
+
+![Preview Kalkulator](assets/preview.png)
+
 ---
 
 ## Checklist Fitur UTS
@@ -28,8 +32,9 @@ Aplikasi kalkulator GUI desktop pakai Python dan PyQt6 sesuai spesifikasi UTS Pe
 ```text
 UTS/
 |-- assets/
-|   `-- icons/
-|       `-- calculator.png       # Ikon aplikasi
+|   |-- icons/
+|   |   `-- calculator.png       # Ikon aplikasi
+|   `-- preview.png              # Tampilan preview kalkulator
 |-- logic/
 |   `-- calculator.py            # Logika perhitungan matematika
 |-- ui/
